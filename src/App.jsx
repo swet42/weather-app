@@ -5,6 +5,7 @@ import { HumidityIcon, SunriseIcon, SunsetIcon, VisibilityIcon, WindIcon } from 
 
 
 const App = () => {
+  
 
   const [weather,setWeather]=useState(null);
   const [city,setCity]=useState('');
