@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import WeatherBackground from './components/WeatherBackgroundTEMP';
+import WeatherBackground from './components/WeatherBackground';
 import { convertTemperature, getHumidityValue, getVisibilityValue, getWindDirection } from './components/Helper';
 import { HumidityIcon, SunriseIcon, SunsetIcon, VisibilityIcon, WindIcon } from './components/Icons';
 
